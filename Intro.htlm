@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="ito.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul class="navbar-links">
+        <li><a href="mission1.html">Mission 1</a></li>
+        <li><a href="mission2.html">Mission 2</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Introduction</h1>
+</main>
+
+<p class="intro">
+    La <strong>SAE S1.03</strong>, intitulée "Installation d’un poste pour le développement",
+    vise à développer les compétences essentielles en Systemes. Les principaux objectifs de cette unité sont les suivants :
+</p>
+<ul id="liste_Puces">
+    <li><strong>Obejctif</strong> : Le but de cette SAÉ (situation d’apprentissage et d’évaluation) est dans un premier temps de s’initier à la 
+        technique de virtualisation en installant un environnement de virtualisation et en créant une machine virtuelle. 
+        Dans un second temps, il s’agit d’installer un serveur web et de l’utiliser pour mettre en ligne le rapport de la SAE.
+    </li>
+</ul>
+
+<p class="intro">
+    L'ensemble de ces compétences est crucial pour comprendre le fonctionnement des bases de données et pour savoir gérer efficacement
+    les données dans un contexte professionnel.
+</p>
+
+<table class="tableau-style">
+    <thead>
+    <tr>
+        <th>Tache</th>
+        <th>Nom</th>
+        <th>Prénom</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+
+    <tr>
+        <td>Mission 1</td>
+        <td>Chabbi</td>
+        <td>Brahim</td>
+    </tr>
+
+    <tr>
+        <td>Mission 2</td>
+        <td>Chabbi</td>
+        <td>Brahim</td>
+    </tr>
+
+
+    </tbody>
+</table>
+
+<p class="intro">Ce tableau correspond à la répartition des taches pour la rédaction des différentes pages. Comme la page d'introduction est plus courte en terme de contenue nous avons décidé d'y ajouter un tableau et une liste à puces.</p>
+
+<footer class="footer">
+    <div class="footer-container">
+        <p>
+            Réalisé par le groupe <strong>G5 :CHABBI Brahim</strong>
+        </p>
+        <nav class="footer-links">
+            <a href="mission1.html">Mission 1</a> |
+            <a href="mission2.html">Mission 2</a> |
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
