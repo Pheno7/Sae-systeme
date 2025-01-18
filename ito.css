@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 1000px;
+    padding-bottom: 50px;
+}
+body main{
+    text-align: center;
+}
+.intro {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+#liste_Puces {
+    padding-left: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tableau-style{
+    position: static;
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 1.5);
+    margin: 100px auto;
+    border: 1px solid #ddd;
+    left: 25px;
+    top: 290px;
+}
+thead tr{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+}
+th, td{
+    padding: 15px 20px;
+}
+tbody tr, td, th{
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even){
+    background-color: #55AF9D;
+}
+div.info article.info_table {
+    position: absolute;
+    left: 560px;
+    top: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar {
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+.navbar a:hover {
+    background-color: lightblue;
+    border-radius: 4px;
+}
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+.navbar-links li {
+    margin-left: 1em;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: cornflowerblue;
+    color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+.footer-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    margin-top: 10px;
+}
+.footer p {
+    margin: 5px 0;
+}
